@@ -15,3 +15,13 @@ let Names = ["next js", 40];
 console.log(Names);
 let arr = ["hello", 456, false];
 console.log(arr);
+let fn;
+fn = false;
+console.log(fn);
+var list;
+(function (list) {
+    list[list["one"] = 3] = "one";
+    list[list["two"] = 6] = "two";
+    list[list["three"] = 1] = "three";
+})(list || (list = {}));
+console.log(list[1]);

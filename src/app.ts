@@ -21,3 +21,16 @@ console.log(Names)
 
 let arr: [string, number, boolean] = ["hello", 456,false]
 console.log(arr)
+
+
+let fn : string|boolean
+fn = false
+console.log(fn)
+
+
+enum list{
+    one = 3,
+    two = 6,
+    three = 1
+}
+console.log(list[1])
