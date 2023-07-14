@@ -11,3 +11,7 @@ let Age;
 Age = 30;
 console.log(Age);
 let Name = 10;
+let Names = ["next js", 40];
+console.log(Names);
+let arr = ["hello", 456, false];
+console.log(arr);

@@ -14,3 +14,10 @@ Age = 30
 console.log(Age)
 
 let Name : number = 10
+
+let Names: [string, number] = ["next js", 40]
+
+console.log(Names)
+
+let arr: [string, number, boolean] = ["hello", 456,false]
+console.log(arr)
